@@ -12,7 +12,6 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.openjfx</groupId>
@@ -25,7 +24,24 @@
 			<artifactId>javafx-fxml</artifactId>
 			<version>15-ea+5</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-graphics</artifactId>
+			<version>13</version>
+			<classifier>win</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-graphics</artifactId>
+			<version>13</version>
+			<classifier>linux</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-graphics</artifactId>
+			<version>13</version>
+			<classifier>mac</classifier>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

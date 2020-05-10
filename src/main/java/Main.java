@@ -14,11 +14,8 @@ public class Main extends Application
     public void start(Stage primaryStage) 
     {
     
-        primaryStage.setTitle("My First JavaFX GUI");
+        primaryStage.setTitle("Scrabble Word Searcher");
         
-        String javaVersion = System.getProperty("java.version");
-        String javafxVersion = System.getProperty("javafx.version");
-        Label l = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
         Parent root = null;
 		try {
 			root = FXMLLoader.load(getClass().getResource("ScrabbleGUI.fxml"));
